@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<homeprojects:Home xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:homeprojects="http://www.obeo.fr/dsl/homeprojects" xsi:schemaLocation="http://www.obeo.fr/dsl/homeprojects ../fr.obeo.dsl.homeprojects/model/homeprojects.ecore">
+  <projects name="Online Poker">
+    <deliverables xsi:type="homeprojects:Report" name="Avancement mi parcours" authors="//@persons.0" done="true"/>
+    <deliverables xsi:type="homeprojects:Report" name="Dossier de Conception" authors="//@persons.0"/>
+    <deliverables xsi:type="homeprojects:Software" name="GameServer" authors="//@persons.1" done="true">
+      <stack xsi:type="homeprojects:JavaStack">
+        <servlet name="ProfileServlet" purpose="Handle personnal settings and preferences" path="account/"/>
+      </stack>
+    </deliverables>
+    <deliverables xsi:type="homeprojects:Software" name="Webclient" done="true"/>
+    <deliverables xsi:type="homeprojects:Presentation" name="Presentation finale"/>
+  </projects>
+  <projects name="New project">
+    <deliverables xsi:type="homeprojects:Software" name="New soft"/>
+    <deliverables xsi:type="homeprojects:Report" name="New report"/>
+  </projects>
+  <persons name="Cédric Brun"/>
+  <persons name="John Do"/>
+</homeprojects:Home>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:homeprojects="http://www.obeo.fr/dsl/homeprojects" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.obeo.fr/dsl/homeprojects platform:/resource/fr.obeo.dsl.homeprojects/model/homeprojects.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_ANn6QLuXEeaCp_OtkPyXSA" selectedViews="_0u7z8LuXEeaCp_OtkPyXSA" version="11.1.0.201608251200">
+    <semanticResources>Home.xmi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_0u7z8LuXEeaCp_OtkPyXSA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_1V7igLuXEeaCp_OtkPyXSA" name="new Main Diag" representation="_1V8JkLuXEeaCp_OtkPyXSA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']"/>
+        <target xmi:type="homeprojects:Home" href="Home.xmi#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_ph5PkLueEeasM_FaIGauNA" name="GameServer stack" representation="_ph52oLueEeasM_FaIGauNA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']"/>
+        <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.2"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_1V8JkLuXEeaCp_OtkPyXSA" name="new Main Diag">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_1V8JkbuXEeaCp_OtkPyXSA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_1V8JkruXEeaCp_OtkPyXSA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_1V8JlLuXEeaCp_OtkPyXSA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_1V8JlbuXEeaCp_OtkPyXSA" type="Sirius" element="_1V8JkLuXEeaCp_OtkPyXSA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="__rtDgLuXEeaCp_OtkPyXSA" type="2002" element="__rqnQLuXEeaCp_OtkPyXSA">
+          <children xmi:type="notation:Node" xmi:id="__rtqkLuXEeaCp_OtkPyXSA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="__rtqkbuXEeaCp_OtkPyXSA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_NDEGMLuYEeaCp_OtkPyXSA" type="3007" element="_NDBp8LuYEeaCp_OtkPyXSA">
+              <children xmi:type="notation:Node" xmi:id="_NDEtQLuYEeaCp_OtkPyXSA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NDEtQbuYEeaCp_OtkPyXSA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_3oD9YLu8EeasM_FaIGauNA" type="3005" element="_3oBhILu8EeasM_FaIGauNA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_3oD9Ybu8EeasM_FaIGauNA" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3oD9Yru8EeasM_FaIGauNA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NDEGMbuYEeaCp_OtkPyXSA" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDEGMruYEeaCp_OtkPyXSA" x="85" y="234" width="48" height="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_NDGicLuYEeaCp_OtkPyXSA" type="3007" element="_NDCRAbuYEeaCp_OtkPyXSA">
+              <children xmi:type="notation:Node" xmi:id="_NDGic7uYEeaCp_OtkPyXSA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NDGidLuYEeaCp_OtkPyXSA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2jjqALyZEea54c0j_Om1eQ" type="3005" element="_2jhNwLyZEea54c0j_Om1eQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_2jjqAbyZEea54c0j_Om1eQ" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2jjqAryZEea54c0j_Om1eQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NDGicbuYEeaCp_OtkPyXSA" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDGicruYEeaCp_OtkPyXSA" x="55" y="119" width="48" height="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UYDhULuZEea2WfzGYsiH9Q" type="3007" element="_UX_P4LuZEea2WfzGYsiH9Q">
+              <children xmi:type="notation:Node" xmi:id="_UYUAALuZEea2WfzGYsiH9Q" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_UYUAAbuZEea2WfzGYsiH9Q" x="-7" y="-13"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_UYg0ULuZEea2WfzGYsiH9Q" type="3005" element="_UX_P4buZEea2WfzGYsiH9Q">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_UYg0UbuZEea2WfzGYsiH9Q" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UYg0UruZEea2WfzGYsiH9Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_UYDhUbuZEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UYDhUruZEea2WfzGYsiH9Q" x="338" y="166" width="48" height="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UYe_ILuZEea2WfzGYsiH9Q" type="3007" element="_UYAeALuZEea2WfzGYsiH9Q">
+              <children xmi:type="notation:Node" xmi:id="_UYgNQLuZEea2WfzGYsiH9Q" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_UYgNQbuZEea2WfzGYsiH9Q" x="-1" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_UYhbYLuZEea2WfzGYsiH9Q" type="3005" element="_UYAeAbuZEea2WfzGYsiH9Q">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_UYhbYbuZEea2WfzGYsiH9Q" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UYhbYruZEea2WfzGYsiH9Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_UYe_IbuZEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UYe_IruZEea2WfzGYsiH9Q" x="315" y="49" width="48" height="48"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="__rtqkruXEeaCp_OtkPyXSA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="__rtqk7uXEeaCp_OtkPyXSA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__rtDgbuXEeaCp_OtkPyXSA" fontName="Sans Serif" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__rtDgruXEeaCp_OtkPyXSA" x="65" y="50" width="463" height="383"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_sgPpULuZEea2WfzGYsiH9Q" type="2001" element="_sgJisLuZEea2WfzGYsiH9Q">
+          <children xmi:type="notation:Node" xmi:id="_sgTTsLuZEea2WfzGYsiH9Q" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sgTTsbuZEea2WfzGYsiH9Q" x="-5" y="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sg5woLuZEea2WfzGYsiH9Q" type="3005" element="_sgJisbuZEea2WfzGYsiH9Q">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_sg5wobuZEea2WfzGYsiH9Q" fontName="Sans Serif"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sg5woruZEea2WfzGYsiH9Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_sgPpUbuZEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sgPpUruZEea2WfzGYsiH9Q" x="80" y="470" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jCT50LuaEea2WfzGYsiH9Q" type="2001" element="_jCRdkLuaEea2WfzGYsiH9Q">
+          <children xmi:type="notation:Node" xmi:id="_jCT507uaEea2WfzGYsiH9Q" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jCT51LuaEea2WfzGYsiH9Q" x="-1" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jCVH8LuaEea2WfzGYsiH9Q" type="3005" element="_jCRdkbuaEea2WfzGYsiH9Q">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jCVH8buaEea2WfzGYsiH9Q" fontName="Sans Serif"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jCVH8ruaEea2WfzGYsiH9Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jCT50buaEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jCT50ruaEea2WfzGYsiH9Q" x="555" y="245" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Zu6ILudEeasM_FaIGauNA" type="2002" element="_2Zis4LudEeasM_FaIGauNA">
+          <children xmi:type="notation:Node" xmi:id="_2Z0ZsLudEeasM_FaIGauNA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_2Z1AwLudEeasM_FaIGauNA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_KvqRcLueEeasM_FaIGauNA" type="3007" element="_KvmnELueEeasM_FaIGauNA">
+              <children xmi:type="notation:Node" xmi:id="_Kvq4gLueEeasM_FaIGauNA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Kvq4gbueEeasM_FaIGauNA" x="-1" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Kvt70LueEeasM_FaIGauNA" type="3005" element="_KvmnEbueEeasM_FaIGauNA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Kvt70bueEeasM_FaIGauNA" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kvt70rueEeasM_FaIGauNA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KvqRcbueEeasM_FaIGauNA" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KvqRcrueEeasM_FaIGauNA" x="5" y="64" width="48" height="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_LMnTMLueEeasM_FaIGauNA" type="3007" element="_LMjo0LueEeasM_FaIGauNA">
+              <children xmi:type="notation:Node" xmi:id="_LMnTM7ueEeasM_FaIGauNA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_LMnTNLueEeasM_FaIGauNA" x="-1" y="-21"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_4XDA4LyZEea54c0j_Om1eQ" type="3005" element="_4XBLsLyZEea54c0j_Om1eQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4XDA4byZEea54c0j_Om1eQ" fontName="Sans Serif"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XDA4ryZEea54c0j_Om1eQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_LMnTMbueEeasM_FaIGauNA" fontName="Sans Serif" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LMnTMrueEeasM_FaIGauNA" x="100" y="79" width="48" height="48"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_2Z1AwbudEeasM_FaIGauNA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_2Z1AwrudEeasM_FaIGauNA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Zu6IbudEeasM_FaIGauNA" fontName="Sans Serif" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Zu6IrudEeasM_FaIGauNA" x="685" y="245" width="203" height="163"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_1V8JlruXEeaCp_OtkPyXSA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_zuDT0LuZEea2WfzGYsiH9Q" type="4001" element="_zt9NMLuZEea2WfzGYsiH9Q" source="_NDEGMLuYEeaCp_OtkPyXSA" target="_sgPpULuZEea2WfzGYsiH9Q">
+          <children xmi:type="notation:Node" xmi:id="_zuEh8LuZEea2WfzGYsiH9Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuEh8buZEea2WfzGYsiH9Q" x="-5" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zuFJALuZEea2WfzGYsiH9Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuFJAbuZEea2WfzGYsiH9Q" x="3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zuFwELuZEea2WfzGYsiH9Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuFwEbuZEea2WfzGYsiH9Q" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zuDT0buZEea2WfzGYsiH9Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zuDT0ruZEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuDT07uZEea2WfzGYsiH9Q" points="[-9, 24, 66, -156]$[-65, 186, 10, 6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zuIzYLuZEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zuIzYbuZEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zuIzYruZEea2WfzGYsiH9Q" type="4001" element="_zt_CYruZEea2WfzGYsiH9Q" source="_NDGicLuYEeaCp_OtkPyXSA" target="_sgPpULuZEea2WfzGYsiH9Q">
+          <children xmi:type="notation:Node" xmi:id="_zuJacLuZEea2WfzGYsiH9Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuJacbuZEea2WfzGYsiH9Q" x="-6" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zuJacruZEea2WfzGYsiH9Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuJac7uZEea2WfzGYsiH9Q" x="3" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zuJadLuZEea2WfzGYsiH9Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zuJadbuZEea2WfzGYsiH9Q" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zuIzY7uZEea2WfzGYsiH9Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zuIzZLuZEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zuIzZbuZEea2WfzGYsiH9Q" points="[6, 19, 51, -276]$[-41, 271, 4, -24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zuKBgLuZEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zuKBgbuZEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_j8itcLuaEea2WfzGYsiH9Q" type="4001" element="_j8g4QLuaEea2WfzGYsiH9Q" source="_UYDhULuZEea2WfzGYsiH9Q" target="_jCT50LuaEea2WfzGYsiH9Q">
+          <children xmi:type="notation:Node" xmi:id="_j8jUgLuaEea2WfzGYsiH9Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j8jUgbuaEea2WfzGYsiH9Q" x="-12" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_j8jUgruaEea2WfzGYsiH9Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j8jUg7uaEea2WfzGYsiH9Q" x="5" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_j8jUhLuaEea2WfzGYsiH9Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j8jUhbuaEea2WfzGYsiH9Q" x="6" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_j8itcbuaEea2WfzGYsiH9Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_j8itcruaEea2WfzGYsiH9Q" fontName="Sans Serif" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j8itc7uaEea2WfzGYsiH9Q" points="[24, 2, -123, -21]$[139, 17, -8, -6]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j8j7kLuaEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j8kioLuaEea2WfzGYsiH9Q" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="__rqnQLuXEeaCp_OtkPyXSA" name="Online Poker">
+      <target xmi:type="homeprojects:Project" href="Home.xmi#//@projects.0"/>
+      <semanticElements xmi:type="homeprojects:Project" href="Home.xmi#//@projects.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="__rrOULuXEeaCp_OtkPyXSA" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NDBp8LuYEeaCp_OtkPyXSA" name="Avancement mi parcours" outgoingEdges="_zt9NMLuZEea2WfzGYsiH9Q" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.0"/>
+        <semanticElements xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_3oBhILu8EeasM_FaIGauNA" showIcon="false" labelColor="39,76,114" workspacePath="/resources/ic_library_books_black_48px.svg">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_NDCRAbuYEeaCp_OtkPyXSA" name="Dossier de Conception" outgoingEdges="_zt_CYruZEea2WfzGYsiH9Q" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.1"/>
+        <semanticElements xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2jhNwLyZEea54c0j_Om1eQ" showIcon="false" workspacePath="/resources/ic_library_books_grey_48px.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_UX_P4LuZEea2WfzGYsiH9Q" name="GameServer" outgoingEdges="_j8g4QLuaEea2WfzGYsiH9Q" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.2"/>
+        <semanticElements xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_UX_P4buZEea2WfzGYsiH9Q" showIcon="false" workspacePath="/resources/ic_computer_black_48px.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_UYAeALuZEea2WfzGYsiH9Q" name="Webclient" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.3"/>
+        <semanticElements xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_UYAeAbuZEea2WfzGYsiH9Q" showIcon="false" workspacePath="/resources/ic_computer_black_48px.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_sgJisLuZEea2WfzGYsiH9Q" name="Cédric Brun" incomingEdges="_zt9NMLuZEea2WfzGYsiH9Q _zt_CYruZEea2WfzGYsiH9Q" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="homeprojects:Person" href="Home.xmi#//@persons.0"/>
+      <semanticElements xmi:type="homeprojects:Person" href="Home.xmi#//@persons.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_sgJisbuZEea2WfzGYsiH9Q" showIcon="false" workspacePath="/resources/ic_person_black_48px.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jCRdkLuaEea2WfzGYsiH9Q" name="John Do" incomingEdges="_j8g4QLuaEea2WfzGYsiH9Q" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="homeprojects:Person" href="Home.xmi#//@persons.1"/>
+      <semanticElements xmi:type="homeprojects:Person" href="Home.xmi#//@persons.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jCRdkbuaEea2WfzGYsiH9Q" showIcon="false" workspacePath="/resources/ic_person_black_48px.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zt9NMLuZEea2WfzGYsiH9Q" sourceNode="_NDBp8LuYEeaCp_OtkPyXSA" targetNode="_sgJisLuZEea2WfzGYsiH9Q">
+      <target xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zt_CYLuZEea2WfzGYsiH9Q" sourceArrow="InputArrow" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zt_CYbuZEea2WfzGYsiH9Q"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zt_CYruZEea2WfzGYsiH9Q" sourceNode="_NDCRAbuYEeaCp_OtkPyXSA" targetNode="_sgJisLuZEea2WfzGYsiH9Q">
+      <target xmi:type="homeprojects:Report" href="Home.xmi#//@projects.0/@deliverables.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zt_CY7uZEea2WfzGYsiH9Q" sourceArrow="InputArrow" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zt_CZLuZEea2WfzGYsiH9Q"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_j8g4QLuaEea2WfzGYsiH9Q" sourceNode="_UX_P4LuZEea2WfzGYsiH9Q" targetNode="_jCRdkLuaEea2WfzGYsiH9Q">
+      <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_j8g4QbuaEea2WfzGYsiH9Q" sourceArrow="InputArrow" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_j8g4QruaEea2WfzGYsiH9Q"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@edgeMappings[name='From%20deliverable%20to%20person']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_2Zis4LudEeasM_FaIGauNA" name="New project">
+      <target xmi:type="homeprojects:Project" href="Home.xmi#//@projects.1"/>
+      <semanticElements xmi:type="homeprojects:Project" href="Home.xmi#//@projects.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_2ZjT8LudEeasM_FaIGauNA" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KvmnELueEeasM_FaIGauNA" name="New soft" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.1/@deliverables.0"/>
+        <semanticElements xmi:type="homeprojects:Software" href="Home.xmi#//@projects.1/@deliverables.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_KvmnEbueEeasM_FaIGauNA" showIcon="false" workspacePath="/resources/ic_computer_black_48px.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_LMjo0LueEeasM_FaIGauNA" name="New report" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="homeprojects:Report" href="Home.xmi#//@projects.1/@deliverables.1"/>
+        <semanticElements xmi:type="homeprojects:Report" href="Home.xmi#//@projects.1/@deliverables.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_4XBLsLyZEea54c0j_Om1eQ" showIcon="false" workspacePath="/resources/ic_library_books_grey_48px.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_1V8Jk7uXEeaCp_OtkPyXSA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer"/>
+    <target xmi:type="homeprojects:Home" href="Home.xmi#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_ph52oLueEeasM_FaIGauNA" name="GameServer stack">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ph52obueEeasM_FaIGauNA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_ph52orueEeasM_FaIGauNA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ph7r0LueEeasM_FaIGauNA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ph7r0bueEeasM_FaIGauNA" type="Sirius" element="_ph52oLueEeasM_FaIGauNA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HsqTILuhEeasM_FaIGauNA" type="2001" element="_Hsf7ELuhEeasM_FaIGauNA">
+          <children xmi:type="notation:Node" xmi:id="_Hsq6MLuhEeasM_FaIGauNA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Hsq6MbuhEeasM_FaIGauNA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HuuIoLuhEeasM_FaIGauNA" type="3005" element="_HsgiILuhEeasM_FaIGauNA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HuuIobuhEeasM_FaIGauNA" fontName="Sans Serif"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HuuIoruhEeasM_FaIGauNA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HsqTIbuhEeasM_FaIGauNA" fontName="Sans Serif" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HsqTIruhEeasM_FaIGauNA" x="170" y="90" width="61" height="61"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VgLtYLuhEeasM_FaIGauNA" type="2001" element="_VgKfQLuhEeasM_FaIGauNA">
+          <children xmi:type="notation:Node" xmi:id="_VgMUcLuhEeasM_FaIGauNA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_VgMUcbuhEeasM_FaIGauNA" y="36"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e6wKYLuhEeasM_FaIGauNA" type="3005" element="_e6vjULuhEeasM_FaIGauNA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_e6wKYbuhEeasM_FaIGauNA" fontName="Sans Serif"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6wKYruhEeasM_FaIGauNA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_VgLtYbuhEeasM_FaIGauNA" fontName="Sans Serif"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VgLtYruhEeasM_FaIGauNA" x="245" y="105" width="46" height="46"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ph7r0rueEeasM_FaIGauNA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Hsf7ELuhEeasM_FaIGauNA" name="JavaStack" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="homeprojects:JavaStack" href="Home.xmi#//@projects.0/@deliverables.2/@stack"/>
+      <semanticElements xmi:type="homeprojects:JavaStack" href="Home.xmi#//@projects.0/@deliverables.2/@stack"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_HsgiILuhEeasM_FaIGauNA" showIcon="false" workspacePath="/resources/ic_settings_black_48px.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']/@defaultLayer/@nodeMappings[name='Stack%20Config']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']/@defaultLayer/@nodeMappings[name='Stack%20Config']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_VgKfQLuhEeasM_FaIGauNA" name="Servlet: ProfileServlet" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="homeprojects:Servlet" href="Home.xmi#//@projects.0/@deliverables.2/@stack/@servlet.0"/>
+      <semanticElements xmi:type="homeprojects:Servlet" href="Home.xmi#//@projects.0/@deliverables.2/@stack/@servlet.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_e6vjULuhEeasM_FaIGauNA" showIcon="false" workspacePath="/resources/ic_link_black_48px.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']/@defaultLayer/@nodeMappings[name='Servlet']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']/@defaultLayer/@nodeMappings[name='Servlet']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ph52o7ueEeasM_FaIGauNA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.obeo.dsl.homeprojects.design/description/homeprojects.odesign#//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Software%20Stack']/@defaultLayer"/>
+    <target xmi:type="homeprojects:Software" href="Home.xmi#//@projects.0/@deliverables.2"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="homeprojects" version="11.1.1.201610211630">
+  <ownedViewpoints name="HomeProjects">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Main Diag" domainClass="homeprojects.Home" enablePopupBars="true">
+      <metamodel href="../../fr.obeo.dsl.homeprojects/model/homeprojects.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Person Node" semanticCandidatesExpression="feature:eAllContents" domainClass="homeprojects.Person">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_person_black_48px.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="From deliverable to person" sourceMapping="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node'] //@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']" targetMapping="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']" targetFinderExpression="aql:self.authors">
+          <style sourceArrow="InputArrow" targetArrow="NoDecoration">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Project Container" domainClass="homeprojects.Project">
+          <subNodeMappings name="Report Node" semanticCandidatesExpression="feature:eAllContents" doubleClickDescription="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@toolSections.0/@ownedTools[name='Mark%20as%20done']" domainClass="homeprojects.Report">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_library_books_grey_48px.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.done">
+              <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_library_books_black_48px.svg">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+              </style>
+            </conditionnalStyles>
+          </subNodeMappings>
+          <subNodeMappings name="Software Node" semanticCandidatesExpression="feature:eAllContents" doubleClickDescription="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@toolSections.0/@ownedTools[name='Mark%20as%20done']" domainClass="homeprojects.Software">
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_computer_black_48px.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="24" arcHeight="24" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelAlignment="LEFT" roundedCorner="true" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.0"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Node">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Person" nodeMappings="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@nodeMappings[name='Person%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="homeprojects.Person" referenceName="persons">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="John Do"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Project" containerMappings="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="homeprojects.Project" referenceName="projects">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'New project' + self.eContainer().projects->size()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Software" nodeMappings="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="homeprojects.Software" referenceName="deliverables">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="New soft"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Report" nodeMappings="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="homeprojects.Report" referenceName="deliverables">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="New report"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="Mark as done" mappings="//@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Report%20Node'] //@ownedViewpoints[name='HomeProjects']/@ownedRepresentations[name='Main%20Diag']/@defaultLayer/@containerMappings[name='Project%20Container']/@subNodeMappings[name='Software%20Node']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="done" valueExpression="aql:not self.done"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Software Stack" titleExpression="aql:self.name + ' stack'" domainClass="homeprojects.Software" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="Servlet" semanticCandidatesExpression="feature:eAllContents" domainClass="homeprojects.Servlet">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.eClass().name + ': ' + self.name" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_link_black_48px.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Stack Config" domainClass="homeprojects.Stack">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="aql:self.eClass().name" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/resources/ic_settings_black_48px.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fr.obeo.dsl.homeprojects.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
